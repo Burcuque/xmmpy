@@ -1,0 +1,79 @@
+instrument,instrument_mode_oid,mode,mode_friendly_name
+EMOS1,27,CcdDiagnostic,Diagnostic 1x1
+EMOS1,28,Diagnostic1x1,Diagnostic 1x1
+EMOS1,29,Diagnostic3x3,Diagnostic 3x3
+EMOS1,30,FastCompressed,Timing Compressed
+EMOS1,31,FastUncompressed,Timing
+EMOS1,32,OffsetVariance,Offset Var.
+EMOS1,33,PrimeFullWindow,Full Frame
+EMOS1,34,PrimePartialRFS,Refresh Frame Store
+EMOS1,35,PrimePartialW2,Small Window
+EMOS1,36,PrimePartialW3,Large Window
+EMOS1,37,PrimePartialW4,Small Window Free Running
+EMOS1,38,PrimePartialW5,Large Window Free Running
+EMOS1,39,PrimePartialW6,Full Frame Two Nodes
+EMOS1,40,UNDEFINED,UNDEFINED
+EMOS2,41,CcdDiagnostic,Diagnostic 1x1
+EMOS2,42,Diagnostic1x1,Diagnostic 1x1
+EMOS2,43,Diagnostic3x3,Diagnostic 3x3
+EMOS2,44,FastCompressed,Timing Compressed
+EMOS2,45,FastUncompressed,Timing
+EMOS2,46,OffsetVariance,Offset Var.
+EMOS2,47,PrimeFullWindow,Full Frame
+EMOS2,48,PrimePartialRFS,Refresh Frame Store
+EMOS2,49,PrimePartialW2,Small Window
+EMOS2,50,PrimePartialW3,Large Window
+EMOS2,51,PrimePartialW4,Small Window Free Running
+EMOS2,52,PrimePartialW5,Large Window Free Running
+EMOS2,53,PrimePartialW6,Full Frame Two Nodes
+EMOS2,54,UNDEFINED,UNDEFINED
+EPN,55,Diagnostic,Diagnostic
+EPN,56,FastBurst,Burst
+EPN,57,FastTiming,Timing
+EPN,58,Noise,Noise
+EPN,59,Offset,Offset
+EPN,60,PrimeFullWindow,Full Frame
+EPN,61,PrimeFullWindowExten,Extended Full Frame
+EPN,62,PrimeFullWindowExtended,Extended Full Frame
+EPN,63,PrimeFullWindowLowGa,Full Frame Low Gain
+EPN,64,PrimeFullWindowMaske,Full Frame Masked
+EPN,65,PrimeLargeWindow,Large Window
+EPN,66,PrimeSmallWindow,Small Window
+EPN,67,UNDEFINED,UNDEFINED
+OM,68,CentroidingData,Engineering 3
+OM,69,DarkHigh,Dark High
+OM,70,DarkLow,Dark Low
+OM,71,Fast,Fast
+OM,72,FlatFieldHigh,Flat High
+OM,73,FlatFieldLow,Flat Low
+OM,74,Image,Image
+OM,75,IntensifierCharacteristics,Inten. Char.
+OM,76,UNDEFINED,UNDEFINED
+RGS1,77,Diagnostic3x3,Diagnostic 3x3
+RGS1,78,HighEventRate,Spectroscopy HER
+RGS1,79,HighEventRateWithSER,Spectroscopy HER + SER
+RGS1,80,HighEventRateWithSES,Spectroscopy HER + SES
+RGS1,81,HighTimeResolutionSingleCcd,HTR Single CCD
+RGS1,82,Spectroscopy,Spectroscopy
+RGS1,83,UNDEFINED,UNDEFINED
+RGS2,84,Diagnostic3x3,Diagnostic 3x3
+RGS2,85,HighEventRate,Spectroscopy HER
+RGS2,86,HighEventRateWithSER,Spectroscopy HER + SER
+RGS2,87,HighEventRateWithSES,Spectroscopy HER + SES
+RGS2,88,HighTimeResolutionSingleCcd,HTR Single CCD
+RGS2,89,Spectroscopy,Spectroscopy
+RGS2,90,UNDEFINED,UNDEFINED
+RGS1,93,SpectroscopySmallWin,Spectroscopy Small Window
+RGS2,94,SpectroscopySmallWin,Spectroscopy Small Window
+EPN,95,PrimeFullWindowLowGain,Full Frame Low Gain
+EPN,96,PrimeFullWindowMasked,Full Frame Masked
+OM,97,CentroidingConfirmation,Centroding Conf.
+EMOS1,98,Diagnostic1x1ResetPerPixel,Diagnostic 1x1 Reset Per Pixel
+EMOS2,99,Diagnostic1x1ResetPerPixel,Diagnostic 1x1 Reset Per Pixel
+RGS1,100,Diagnostic1x1,Diagnostic 1x1
+RGS2,101,Diagnostic1x1,Diagnostic 1x1
+RGS1,102,SpectroscopySmallWindow,Spectroscopy Small Window
+RGS2,103,SpectroscopySmallWindow,Spectroscopy Small Window
+RGS1,104,HighTimeResolutionMultipleCcd,HTR Multiple CCD
+RGS2,105,HighTimeResolutionMultipleCcd,HTR Multiple CCD
+OM,106,Image+Fast,Image + Fast
