@@ -307,13 +307,25 @@ cut_hard = cutout_image(hard,c,box,out_name=houtfile,clobber=True)
 cut_soft.data = (cut_soft.data - np.mean(cut_soft.data))/np.std(cut_soft.data)
 cut_hard.data = (cut_hard.data - np.mean(cut_hard.data))/np.std(cut_hard.data)
 xdss2r.data = (xdss2r.data - np.mean(xdss2r.data))/np.std(xdss2r.data)
+#%%
+#
+# save the scaled images 
+#
+soutfile = f"{output_dir}/{sid}_soft_std.fits"
+houtfile = f"{output_dir}/{sid}_hard_std.fits"
+ofile = f"{output_dir}/{sid}_dss2r_std.fits"
+cut_soft.writeto(soutfile,overwrite=True)
+cut_hard.writeto(houtfile,overwrite=True)
+xdss2r.writeto(ofile,overwrite=True)
+
 #print (np.min(cut_soft.data),np.max(cut_soft.data))
 #print (np.min(cut_hard.data),np.max(cut_hard.data))
 #print (np.min(xdss2r.data),np.max(xdss2r.data))
 
-
-
 #%%
+#
+# plot the images just to make sure they are OK.
+
 plot_xmm_optical(cut_soft,cut_hard,xdss2r)
 #
 print ("All done")
